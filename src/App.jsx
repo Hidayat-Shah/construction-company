@@ -9,7 +9,7 @@ import Hero from './components/Hero'
 import ServicesSection from './components/ServiceSection'
 import About from './components/About'
 import Projects from './components/Projects'
-import LetsTalk from './components/Letstalk'
+
 import OurTeam from './components/OurTeam'
 import Testimonial from './components/Testimonial'
 
@@ -22,6 +22,7 @@ import Loader from "./components/Loader";
 import Elements from "./Pages/Elements";
 import ProjectDetails from "./Pages/ProjectDetails";
 import ServiceDetails from "./Pages/ServiceDetails";
+import LetsTalk from "./components/LetsTalk";
 
 
 
