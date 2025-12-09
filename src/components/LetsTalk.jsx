@@ -1,5 +1,5 @@
 import React from "react";
-import letsBg from "../assets/letsBg.jpg"; // your background image
+import letsBg from "../assets/letsBg.jpg";
 
 const LetsTalk = () => {
   return (
