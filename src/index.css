@@ -1,0 +1,33 @@
+@import "tailwindcss";
+.hero-outline {
+    color: transparent;
+    -webkit-text-stroke: 3px #ffffff;
+  }
+  
+  .hero-fill {
+    color: #ff6600;
+  }
+  
+  /* Perfect top mask */
+  .mask-top {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+  
+  /* Perfect bottom mask */
+  .mask-bottom {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+  }
+  
+
+
+  .stroke-text {
+    color: transparent;
+    -webkit-text-stroke: 3px white;   /* outer border */
+    text-shadow: none;
+    opacity: 0.3;                     /* adjust visibility */
+  }
+  
