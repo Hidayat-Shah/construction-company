@@ -3,7 +3,7 @@ import banner from "../assets/banner.jpg";
 import ServicesSection from '../components/ServiceSection';
 import Loader from '../components/Loader';
 
-const ServicesPage = () => {
+const Servicespage = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -40,4 +40,4 @@ const ServicesPage = () => {
   );
 };
 
-export default ServicesPage;
+export default Servicespage;

@@ -17,12 +17,14 @@ import Testimonial from './components/Testimonial'
 import Blog from './Pages/Blog'
 import AboutPage from './Pages/AboutPage';
 import ProjectsPage from './Pages/ProjectsPage';
-import ServicesPage from './Pages/ServicesPAge';
+
 import Loader from "./components/Loader";
 import Elements from "./Pages/Elements";
 import ProjectDetails from "./Pages/ProjectDetails";
 import ServiceDetails from "./Pages/ServiceDetails";
 import LetsTalk from "./components/LetsTalk";
+import Servicespage from "./Pages/ServicesPage";
+
 
 
 
@@ -62,7 +64,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/services" element={<Servicespage />} />
         <Route path="/elements" element={<Elements />} />
         <Route path="/projectsdetails" element={<ProjectDetails />} />
         <Route path="/servicesdetails" element={<ServiceDetails />} />
